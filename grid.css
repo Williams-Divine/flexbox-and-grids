@@ -5,7 +5,14 @@
     color: white;
     Font-size: 15px;
     box-sizing: border-box;
-
+}
+a{
+    color:black;
+    text-decoration: none;
+    padding:.7rem;
+    border:1px solid black;
+    width: 100px;
+    text-align: center;
 }
 body{
     padding:10%;
@@ -75,5 +82,30 @@ section{
  }
  #darker-cyan-button{
      color: hsl(179, 100%,13%);
+ }
+
+ /*media query for size 375ps*/
+ @media screen and (max-width:390px){
+    body{
+        padding:5%;
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3,1fr);
+        grid-template-areas: 
+            "section1"
+            "section2"
+            "section3"
+        ;
+        grid-row-gap:.3rem;
+    }
+    #section1{
+        grid-area: section1;
+    }
+    #section2{
+        grid-area: section2;
+    }
+    #section3{
+        grid-area: section3;
+    }
  }
  
