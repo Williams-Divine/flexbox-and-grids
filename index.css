@@ -1,0 +1,81 @@
+/*universals*/
+*{
+    margin: 0%;
+    padding: 0%;
+    color: white;
+    Font-size: 15px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight:700;
+
+    box-sizing: border-box;
+    letter-spacing: .1rem;
+}
+
+body{
+    display: flex;
+    padding: 10%;
+    background-color: hsl(0, 0%, 95%);
+}
+section{
+   padding:2em;
+   display: flex;
+   width:30%;
+   font-weight: 00;
+   flex-direction: column;
+}
+img{
+    max-height: 5rem;
+    max-width: 5rem;
+    background-color: none;
+    padding-bottom:2rem;
+}
+h1{
+    font-size: 2.5rem;
+    color: hsl(0, 0%, 95%);
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 4rem;
+}
+button{
+    border:none;
+    border-radius: 30px;
+    padding:.6rem;
+    width: 60%;
+    margin-top: auto;
+    background-color: hsl(0, 0%, 95%);
+}
+#orange-button:active,
+ #dark-cyan-button:active,
+ #darker-cyan-button:active{
+    background:none ;
+    border: 1px solid white;
+    color:white;
+    cursor: pointer;
+ }
+
+/*first section*/
+#section1{
+    background-color: hsl(31, 77%, 52%);
+}
+#orange-button{
+    color: hsl(31, 77%, 52%);
+}
+
+/*second section*/
+#section2{
+    background-color: hsl(184, 100%,22%);
+}
+#dark-cyan-button{
+    color: hsl(184, 100%,22%);
+}
+
+/*third section*/
+#section3{
+    background-color: hsl(179, 100%,13%);
+}
+#darker-cyan-button{
+    color: hsl(179, 100%,13%);
+}

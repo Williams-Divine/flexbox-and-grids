@@ -1,0 +1,80 @@
+/*universals*/
+*{
+    margin: 0%;
+    padding: 0%;
+    color: white;
+    Font-size: 15px
+}
+body{
+    height: ;
+    padding:10%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: fr;
+    grid-template-areas: "section1 section2 section3";
+}
+section{
+    padding:2rem;
+    display: flex;
+    flex-direction: column;
+ }
+ img{
+    max-height: 4rem;
+    max-width: 9rem;
+    background-color: none;
+    padding-bottom:2rem;
+ }
+ h1{
+     font-size: 2rem;
+ }
+ p{
+     color: hsla(0, 0%, 100%, 0.75);
+     font-size: 1.2rem;
+     padding-top: 1.5rem;
+     padding-bottom: 4rem;
+ }
+ .button{
+     border:none;
+     border-radius: 30px;
+     padding:.6em;
+     margin-top: 4rem;
+     width: 60%;
+     background-color: white;
+     margin-top: auto;
+ }
+ 
+ #orange-button:active,
+ #dark-cyan-button:active,
+ #darker-cyan-button:active{
+    background:none ;
+    border: 1px solid white;
+    color:white;
+    cursor: pointer;
+ }
+ /*first section*/
+ #section1{
+     background-color: hsl(31, 77%, 52%);
+     grid-area: section1;
+ }
+ #orange-button{
+     color: hsl(31, 77%, 52%);
+ }
+ 
+ /*second section*/
+ #section2{
+     background-color: hsl(184, 100%,22%);
+     grid-area: section2;
+ }
+ #dark-cyan-button{
+     color: hsl(184, 100%,22%);
+ }
+ 
+ /*third section*/
+ #section3{
+     background-color: hsl(179, 100%,13%);
+     grid-area: section3;
+ }
+ #darker-cyan-button{
+     color: hsl(179, 100%,13%);
+ }
+ 
