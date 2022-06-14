@@ -30,7 +30,7 @@ main{
 section{
    padding:2em;
    display: flex;
-   width:30%;
+   width:100%;
    flex-direction: column;
 }
 img{
