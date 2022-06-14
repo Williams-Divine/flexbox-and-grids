@@ -13,6 +13,8 @@ a{
     border:1px solid black;
     width: 100px;
     text-align: center;
+    margin-top: 1rem;
+    text-align: center;
 }
 body{
     padding:10%;
