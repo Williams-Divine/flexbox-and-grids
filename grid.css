@@ -86,8 +86,8 @@ section{
      color: hsl(179, 100%,13%);
  }
 
- /*media query for size 375ps*/
- @media screen and (max-width:390px){
+ /*media query for size 500px*/
+ @media screen and (max-width:500px){
     body{
         padding:5%;
         display:grid;
